@@ -17,6 +17,6 @@ BaselineOfRoassalPdfExporter >> baseline: spec [
     			baseline: 'Artefact'
     			with: [ spec repository: 'github://pharo-contributions/Artefact:master/src' ].
 			spec package: 'RoassalPdfExporter' with: [ spec requires: #('Artefact') ]. 
-			spec group: 'default' with: #('Tests' 'Roassal2-OpenStreetMap' 'Roassal2-ExporterVW').
-			]
+			spec group: 'default' with: #('RoassalPdfExporter').
+		]
 ]
